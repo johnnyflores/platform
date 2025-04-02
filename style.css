@@ -1,21 +1,34 @@
+/*
+Theme Name: Platform
+Theme URI: 
+Author: Johnny
+Description: Platform Theme
+Version: 1.0
+*/
 /* ========================================================================
    Component: Typography
  ========================================================================== */
 
 html {
-    font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 body {
-    font-size: 16px;
+  font-size: 16px;
 }
-h2, h3, h4, h5, h6, .bold-text {
-    font-family: "Open Sans", sans-serif !important;
+h2,
+h3,
+h4,
+h5,
+h6,
+.bold-text {
+  font-family: "Open Sans", sans-serif !important;
 }
-h1, .light-text {
-    font-family: "Open Sans" !important;
+h1,
+.light-text {
+  font-family: "Open Sans" !important;
 }
 header p {
-    font-size: 18px !important;
+  font-size: 18px !important;
 }
 
 /* ========================================================================
@@ -253,7 +266,7 @@ h6 {
   top: 21px;
 }
 .menui {
-  background: #FFF;
+  background: #fff;
   transition: 0.6s ease;
   transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
   margin-top: 10px;
@@ -436,7 +449,7 @@ h6 {
   overflow: hidden;
 }
 .portfolio-wrapper .button:after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   -webkit-transition: all 0.3s;
@@ -579,17 +592,17 @@ header .logo-container {
   padding: 0;
   cursor: pointer;
   color: #fff;
-  transition: background .5s;
+  transition: background 0.5s;
 }
 .observation-left .overlay {
   padding-left: 200px;
   padding-right: 50px;
-  transition: background .5s;
+  transition: background 0.5s;
 }
 .observation-right .overlay {
   padding-right: 200px;
   padding-left: 50px;
-  transition: background .5s;
+  transition: background 0.5s;
 }
 .observation .observation-left {
   background: url("img/laptop.jpg") no-repeat;
@@ -612,7 +625,7 @@ header .logo-container {
 .observation .description {
   font-weight: lighter;
 }
-.observation .description p{
+.observation .description p {
   color: transparent;
 }
 
@@ -646,16 +659,16 @@ header .logo-container {
 .profil .service .row:hover > .icon {
   background: #01274c;
   color: #fff;
-  transition: all .85s;
+  transition: all 0.85s;
 }
 .profil .service .row:hover > .icon i {
   color: #fff;
-  transition: all .85s;
+  transition: all 0.85s;
 }
 .profil .service .row .service-content {
-  min-height:180px;
-  height:auto;
-  overflow:hidden;
+  min-height: 0px;
+  height: auto;
+  overflow: hidden;
 }
 
 /* ========================================================================
@@ -771,85 +784,85 @@ header .logo-container {
   line-height: 1.5em;
 }
 .portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  padding: 100px 0;
+  min-height: 100%;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
-    font-size: 3em;
+  margin-bottom: 15px;
+  font-size: 3em;
 }
 
 .portfolio-modal .modal-content p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-    max-width: 100%;
-    height: auto;
+  margin-bottom: 30px;
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+  opacity: 0.3;
 }
 
 .portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #222;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  background-color: #222;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #222;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+  z-index: 1052;
+  width: 1px;
+  height: 75px;
+  background-color: #222;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .portfolio-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
+  display: none;
+  opacity: 0;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #DBDBDB;
+  color: #dbdbdb;
   font-style: italic;
 }
 /* ========================================================================
@@ -868,7 +881,7 @@ header .logo-container {
   border-radius: 50%;
   border: 2px solid #e5e5e5;
   background: #fff;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 .contact li:hover {
   cursor: pointer;
@@ -878,7 +891,7 @@ header .logo-container {
 }
 .contact .social i {
   font-size: 22px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .contact .linkedin:hover {

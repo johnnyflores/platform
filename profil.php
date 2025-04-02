@@ -9,6 +9,12 @@
         <p>Don't find the posts</p>
         <?php endif; ?>
         <div class="line main-bg margin-bottom-large"></div>
+        <?php query_posts('category_name=profil'); ?>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <div class="margin-bottom-medium margin-top-medium wow slideInUp"><?php the_content();?></div>
+        <?php endwhile; else: ?>
+        <p>Don't find the posts</p>
+        <?php endif; ?>
         <div class="row">
             <?php query_posts( 'post_type=profils&order=asc'); ?>
     				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

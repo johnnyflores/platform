@@ -14,11 +14,10 @@
     <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-
     <link href="<?php bloginfo('template_url')?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url')?>/css/animate.min.css" rel="stylesheet">
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <link href="<?php bloginfo('template_url')?>/fonts/fontawesome/css/fontawesome-all.min.css" rel="stylesheet">
 
     <link href="<?php bloginfo('stylesheet_url')?>" rel="stylesheet">
